@@ -1,0 +1,943 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- Font Awesome Icons link-->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!-- Main Template CSS File -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    
+    <title>Travel-world</title>
+</head>
+<body>
+    <!-- Header Section Starts Here  -->
+    <header class="">
+      <nav class="navbar fixed-top  navbar-expand-lg bg_opacity">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="img-fluid rounded-circle" src="Images/travel-logo.jpg"alt="logo" style="width: 50px;height: 50px;">
+          </a><!--- /logo ---->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Travel Guide</a> -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!---- Nav bar links ---->
+              <li class="nav-item dropdown me-2"> <!--- Drop down menu for countries--->
+                <a class="nav-link active dropdown-toggle link-warning text-light position-relative nav-link-position" href="#" role="button" data-bs-toggle="dropdown" aria-current="page">Destination</a>
+                <ul class="dropdown-menu position-absolute dropdown-menu-position shadow-lg p-0 " > <!--- Dropdown list of countries--->
+                  <li><h6 class="dropdown-header text-center fs-5 border-bottom border-color text-color">Destination</h6></li>
+                  <ul class="dropdown-menu-left-right d-lg-flex  p-0"> <!-- Left & Right arrow icons in drop down menu -->
+                    <ul class="dropdown-menu-left p-0"> <!--Left arrow icons in drop down menu-->
+                      <li class="d-flex">
+                        <img src="Images/tour-monde.jpeg" alt="Where and When To Leave" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Where & When To Leave</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/France.jpeg" alt="France" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">France</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Amerique-sud.jpeg" alt="Central America & South" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Central America & South</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/asia.jpeg" alt="Asia" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Asia</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/oceania.jpeg" alt="Oceania" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Oceania</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                    </ul> <!--/Left arrow icons in drop down menu-->
+                    <ul class="dropdown-menu-right p-0"> <!--Right arrow icons in drop down menu-->
+                      <li class="d-flex">
+                        <img src="Images/sejour.jpeg" alt="Ideas For Stays" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Ideas For Stays</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/africa.jpeg" alt="Africa" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Africa</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Caribbean.jpeg" alt="North America" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">North America & Caribbean</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/europe.jpeg" alt="Europe" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Europe</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Middle East.jpeg" alt="Near_Middle East" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Near & Middle East</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                    </ul> <!--/Right arrow icons in drop down menu-->
+                  </ul><!-- /Left & Right arrow icons in drop down menu -->           
+                </ul><!--- /Dropdown list of countries--->
+                <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+              </li>
+              <li class="nav-item dropdown me-2"><!-- Drop down menu for countries-->
+                <a class="nav-link dropdown-toggle link-warning text-light position-relative nav-link-position" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+                <ul class="dropdown-menu postion-absolute dropdown-menu-position shadow-lg p-0 "><!--Dropdown list of countries--->
+                  <li><h6 class="dropdown-header text-center fs-5 border-bottom border-color text-color">Reports</h6></li>
+                  <li class=""><a class="dropdown-item d-flex align-items-center bg-hover p-3" href="#">All The News</a></li>
+                  <li><hr class="dropdown-divider border-color m-0"></li>
+                  <li class=""><a class="dropdown-item d-flex align-items-center bg-hover p-3 p-3" href="#">Weekend & Vacation Ideas</a></li>
+                  <li><hr class="dropdown-divider border-color m-0"></li>
+                  <li class=""><a class="dropdown-item d-flex align-items-center bg-hover p-3" href="#">Top 10 / Insolates Travel</a></li>
+                  <li><hr class="dropdown-divider border-color m-0"></li>
+                  <li class=""><a class="dropdown-item d-flex align-items-center bg-hover p-3" href="#">Agenda & Event</a></li>
+                  <li><hr class="dropdown-divider border-color m-0"></li>
+                  <li class=""><a class="dropdown-item d-flex align-items-center bg-hover p-3" href="#">We Tested For You</a></li>
+                  <li><hr class="dropdown-divider border-color m-0"></li>
+                  <li class=""><a class="dropdown-item d-flex align-items-center bg-hover p-3" href="#">Sustainable Tourism</a></li>
+                </ul><!--- /Dropdown list of countries--->
+              </li><!-- /Drop down menu for countries-->
+              <li class="nav-item dropdown me-2">
+                <a class="nav-link dropdown-toggle link-warning text-light position-relative nav-link-position" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Organise Your Trips
+                </a>
+                <ul class="dropdown-menu position-absolute dropdown-menu-position shadow-lg p-0  "> <!--- Dropdown list of countries--->
+                  <ul class="dropdown-menu-left-center-right d-lg-flex p-0"> <!-- Left & Center & Right arrow icons in drop down menu -->
+                    <ul class="dropdown-menu-left p-0"> <!--Left arrow icons in drop down menu-->
+                      <li class="d-flex border-bottom border-color"><i class="fa-solid fa-truck-plane mt-2 ms-2 text-color"></i><h6 class="dropdown-header fs-6  text-color">Organise Your Trips</h6></li>
+                      <li class="d-flex">
+                        <img src="Images/Billets.jpeg" alt="Where and When To Leave" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Book Your Plane Tickets</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Location.jpeg"alt="France" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Car Rental</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Booka Train.jpeg" alt="Central America & South" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Book a Train</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Location bateaux.jpeg" alt="Asia" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Boat Rental</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                    </ul> <!--/Left arrow icons in drop down menu-->
+                    <ul class="dropdown-menu-right p-0"> <!--center arrow icons in drop down menu-->
+                      <li class="d-flex border-bottom border-color"><i class="fa-solid fa-people-roof mt-2 ms-2 text-color"></i><h6 class="dropdown-header fs-6 text-color">Accommodation & Stays</h6></li>
+                      <li class="d-flex">
+                        <img src="Images/Trouver_hotel.jpeg" alt="Ideas For Stays" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Find a Hotel</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Location_vacances.jpeg" alt="Africa" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Vacation Location</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Trouvez _camping.jpeg" alt="North America" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Find Your Campsite</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/All-inclusive_stay.jpeg" alt="Europe" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">All-inclusive stay</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Voyage_mesure.jpeg" alt="Near_Middle East" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Tailor-made Trip</a>
+                      </li>
+                      <li><hr class="dropdown-divider bg-warning m-0"></li>
+                    </ul> <!--/Center arrow icons in drop down menu-->
+                    <ul class="dropdown-menu-right p-0"> <!--Right arrow icons in drop down menu-->
+                      <li class="d-flex border-bottom border-color"><i class="fa-solid fa-bell-concierge mt-2 ms-2 text-color"></i><h6 class="dropdown-header fs-6 text-color">Services / Sur place</h6></li>
+                      <li class="d-flex">
+                        <img src="Images/Activités_visites.jpeg" alt="Ideas For Stays" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Activities & Visits</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Travel_insurance.jpeg" alt="Africa" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Travel Insurance</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Trouver_médecin.jpeg" alt="North America" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Find a Doctor</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Reserve_parking.jpeg" alt="Europe" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Reserve my Parking</a>
+                      </li>
+                      <li><hr class="dropdown-divider border-color m-0"></li>
+                      <li class="d-flex">
+                        <img src="Images/Discover_English.jpeg" alt="Near_Middle East" style="width: 50px;height: 50px;">
+                        <a class="dropdown-item d-flex align-items-center bg-hover" href="#">Discover Wall Street English</a>
+                      </li>
+                    </ul> <!--/Right arrow icons in drop down menu-->
+                  </ul><!-- /Left & Right arrow icons in drop down menu -->           
+                </ul><!--- /Dropdown list of countries--->
+              </li>
+              <li class="nav-item dropdown me-2"><!-- Drop down menu for countries-->
+                <a class="nav-link dropdown-toggle link-warning text-light position-relative nav-link-position" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+                <ul class="dropdown-menu postion-absolute dropdown-menu-position shadow-lg p-0 "><!--Dropdown list of countries--->
+                  <li><h6 class="dropdown-header text-center fs-5 border-bottom border-color text-color">Shop</h6></li>
+                  <li class=""><a class="dropdown-item d-flex align-items-center bg-hover p-3" href="#">Tailor-made guide</a></li>
+                  <li><hr class="dropdown-divider border-color m-0"></li>
+                  <li class=""><a class="dropdown-item d-flex align-items-center bg-hover p-3 p-3" href="#">Shop</a></li>
+                  
+                </ul><!--- /Dropdown list of countries--->
+              </li><!-- /Drop down menu for countries-->
+            </ul>
+            <form class="d-flex justify-content-end my-lg-auto" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light me-2" type="submit">Search</button>
+              <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</button>                     
+            </form>
+            <ul class="nav d-none d-xl-flex text-light ms-2">
+              <span class="small">Follow us on</span>
+              <div class="social-icon d-flex">
+                <li class="nav-item mx-2">
+                  <a class="small" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook" href="#"> 
+                    <i class="fa-brands fa-facebook-f text-light link-warning"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-2">
+                  <a class="small" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram" href="#">
+                    <i class="fa-brands fa-instagram text-light link-warning"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-2">
+                  <a class="small" data-bs-toggle="tooltip" data-bs-placement="bottom" title="X" href="#"> 
+                    <i class="fa-brands fa-x-twitter text-light link-warning"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-2">
+                  <a class="small" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tiktok" href="#">
+                    <i class="fa-brands fa-tiktok text-light link-warning"></i>
+                  </a>
+                </li>
+              </div>              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-color text-light">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-email" class="col-form-label text-color">Email Address:</label>
+                  <input type="email" class="form-control border-color" id="recipient-email">
+                  <p>We'll never Share Your Email With Anyone else.</p>
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-password" class="col-form-label text-color">Password:</label>
+                  <input type="password" class="form-control border-color" id="recipient-password">
+                </div>
+                <div class="form-check form-switch ms-2 text-color">
+                  <input class="form-check-input bg-color border-color" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+                  <label class="form-check-label text-color" for="mySwitch">Remmember Me</label>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn bg-color text-light" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn bg-color text-light">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>         
+    </header>
+    <!-- Header Section Ends Here  -->
+
+
+    
+    <!-- carousel Section Starts Here  -->    
+    <main">
+      <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overley"></div>
+            <img src="Images/jardin-essai-alger-bbe3ffa279.jpg" class="d-block w-100 h-100 " alt="jardin-essai-alger">
+            <div class="carousel-caption d-none d-md-block bg_opacity rounded">
+              <h3>Algeria</h3>
+              <p>Algiers is one of the most beautiful cities.</p>
+              <button type="button" class="btn bg-color text-light me-2">Visit Us</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overley"></div>
+            <img src="Images/egypte.jpeg" class="d-block w-100 h-100" alt="egypte">
+            <div class="carousel-caption d-none d-md-block bg_opacity rounded">
+              <h3>Cario</h3>
+              <p>A city worth visiting.</p>
+              <button type="button" class="btn bg-color text-light me-2">Visit Us</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overley"></div>
+            <img src="Images/paris.jpeg" class="d-block w-100 h-100" alt="egypte">
+            <div class="carousel-caption d-none d-md-block bg_opacity rounded">
+              <h3>Paris</h3>
+              <p>Paris that never sleeps.</p>
+              <button type="button" class="btn bg-color text-light me-2">Visit Us</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>                  
+    </main>
+    <!-- Carousel Section Ends Here  -->
+
+    <!-- TravelGuide Section Starts Here  -->
+    <section class="travelGuide bg-color p-5" >
+      <div class="d-flex align-items-center mb-4">
+        <a class="" href="#">
+          <img class="img-fluid rounded-circle" src="Images/travel-logo.jpg"alt="logo" style="width: 50px;height: 50px;">
+        </a>
+        <h3 class="text-light ms-3">Travel Guide</h3>
+      </div>
+      <p class="fs-6 text-light fst-italic" style="--bs-bg-opacity: .5">Organize your vacation with your Travel Guide: accommodation, restaurants, leisure activities, visits... all the good addresses tested for a stay with complete peace of mind</p> 
+      <a class="btn text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Lear More" href="#" style="background-color: #8881CB;">Lear More</a>
+    </section>
+    <!-- TravelGuide Section Ends Here  --> 
+
+    <!-- PopularDestination Section Starts Here  -->    
+    <section class="popularDestination rounded-3">
+      <div class=" m-0 border-dark w-100  p-4 gardient-bg-color">
+        <h2 class="text-center text-color ">Popular Destination In World</h2>
+      </div>      
+      <div class="shadow-lg rounded">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item d-flex  flex-column align-items-center">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Cario
+              </button>              
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-center">Cairo is associated with ancient Egypt, 
+                as the Giza pyramid complex and the ancient cities of Memphis and Heliopolis are located in its geographical area. 
+                Located near the Nile Delta.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item d-flex  flex-column align-items-center">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Saudi Arabia
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-center">L'Arabie saoudite est un pays désertique qui inclut la majeure partie de la péninsule arabique. 
+                Il est bordé par la mer Rouge et le golfe Persique (Arabique). Berceau de l'Islam, 
+                le pays comprend les 2 mosquées les plus sacrées de cette religion : la Masjid al-Harâm, à La Mecque, 
+                destination du pèlerinage annuel du hadj, et l'Al-Masjid Al-Nabawi, à Médine, où repose le prophète Mohammed. 
+                Riyad, la capitale, est une métropole dotée de nombreux gratte-ciel. .</div>
+            </div>
+          </div>
+          <div class="accordion-item d-flex  flex-column align-items-center">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Paris
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-center">Paris, the capital of France, is a major European city and a global center of art,
+                fashion, gastronomy and culture. Its 19th century urban landscape is crossed by wide boulevards and the Seine. 
+                In addition to landmarks like the Eiffel Tower and the 12th-century Gothic Notre-Dame Cathedral, 
+                the city is known for its cafés and luxury boutiques lining Rue du Faubourg-Saint-Honoré...
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item d-flex  flex-column align-items-center">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Algeria
+              </button>              
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body text-center">Well, most visitors need to obtain a tourist visa for Algeria from their embassy beforehand (although there have been rumours about EVisa launching one day). 
+                But this should not stop you from putting Algeria on your bucket list. From gorgeous coastal cities with incredible architecture and ancient Roman sites to desert villages, Algeria will surprise you!
+              </div>
+            </div>
+          </div>                    
+        </div>
+      </div>      
+    </section>
+    <!-- PopularDestination Section Ends Here  -->
+
+    <!-- TranslateLang Section Starts Here  -->
+    <section class="translateLang">
+      <div class=" m-0 w-100  p-4 gardient-bg-color">
+        <h2 class="text-center text-color ">Translate</h2>
+      </div>  
+      <div class=" bg-color p-4">
+        <div class="d-lg-flex justify-content-start align-items-center">
+          <div class="d-flex flex-column align-items-start justify-content-center mb-3">
+            <h5 class=" mb-3 me-5 text-light">Choose Language</h5>
+            <div>
+              <div class="form-check mb-2">
+                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                <label class="small form-check-label text-light" for="radio1">From Arabic To English</label>
+              </div>
+              <div class="form-check mb-2">
+                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                <label class="small form-check-label text-light" for="radio2">From Arabic To Frensh</label>
+              </div>
+              <div class="form-check mb-2">
+                <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">
+                <label class="small form-check-label text-light">From Arabic To Germen</label>
+              </div>
+            </div>
+          </div>
+          <div class=" d-flex flex-column justify-content-center align-items-center mb-3 col-12 col-lg-9">
+            <textarea  class="rounded col-12" name="" id="" cols="200" rows="6" placeholder="Translate"></textarea>
+          </div>
+        </div>
+        <div class="d-flex align-items-start mt-4">        
+          <h5 class="fs-6 me-4 text-center small text-light">Write and Translate <span class="text-warning">Press Here</span></h5>
+          <button type="button" class="btn text-light" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo" title="Copy"style="background-color: #8881CB;">Copy</button>
+        </div>
+      </div> 
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-color text-light">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Alert</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <p style="direction: rtl;">تم نسخ النص</p>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn bg-color text-light" data-bs-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </section>
+    <!-- TranslateLang Section Ends Here  -->
+
+    <!-- PorterOne Section Starts Here  -->
+    <section class="porterOne container-fluid position-relative h-75">
+      <div class="overley position-absolute w-100 h-100 t-0 s-0"></div>
+    </section>
+    <!-- PorterOne Section Ends Here  -->
+
+    <!-- Popular Destination In Monde Section Starts Here  -->
+    <section class="popularDestinationInMonde d-none d-lg-block">
+      <div class=" m-0 w-100  p-5 gardient-bg-color">
+        <h2 class="text-center text-color ">Popular Destination In world</h2>
+      </div>
+      <div id="carouselExample" class="carousel slide my-4">        
+        <div class="carousel-inner">
+          <div class="px-4 carousel-item active">
+            <div class="row d-lg-flex justify-content-around align-items-center ">
+              <div class="car-over card position-relative col-3 p-0" >
+                <img src="Images/arabiesaoudite.jpeg" class="card-img-top" alt="arabiesaoudite">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title">Saudi Arabia</h5>
+                    <p class="card-text small">The most sacred Islamic city.</p>
+                  </div>    
+                  <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>
+                </div>
+              </div>
+              <div class="car-over card position-relative col-3 p-0" >
+                <img src="Images/paris.jpeg" class="card-img-top" alt="paris">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title">Paris</h5>
+                    <p class="card-text small">The capital of France.</p>
+                  </div>    
+                  <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>              
+                </div>
+              </div>
+              <div class="car-over card position-relative col-3 p-0" >
+                <img src="Images/newyourk.jpeg" class="card-img-top" alt="newyourk">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title">NewYork</h5>
+                    <p class="card-text small"> Is the most populous city.</p>
+                  </div>     
+                  <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>             
+                </div>
+              </div>             
+            </div>            
+          </div>
+          <div class="px-4 carousel-item">
+            <div class=" row d-lg-flex justify-content-around align-items-center">
+              <div class="car-over card position-relative col-3 p-0">
+                <img src="Images/londre.jpeg" class="card-img-top" alt="londre">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title">London</h5>
+                    <p class="card-text small">London is the capital city of...</p>
+                  </div>    
+                  <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>              
+                </div>
+              </div>
+              <div class="car-over card position-relative col-3 p-0">
+                <img src="Images/malta.jpeg" class="card-img-top" alt="malta">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title">Malta</h5>
+                    <p class="card-text small">The geography of Malta is...</p>
+                  </div>    
+                  <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>              
+                </div>
+              </div>
+              <div class="car-over card position-relative col-3 p-0">
+                <img src="Images/cario.jpeg" class="card-img-top" alt="cario">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title">Cario</h5>
+                    <p class="card-text small">Egyptian Arabic pronunciation.</p>
+                  </div>     
+                  <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>
+                </div>
+              </div>             
+            </div>            
+          </div>
+          <div class="px-4 carousel-item">
+            <div class=" row d-lg-flex justify-content-around align-items-center">
+              <div class="car-over card position-relative col-3 p-0">
+                <img src="Images/itali.jpeg" class="card-img-top" alt="">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title">Italy</h5>
+                    <p class="card-text small">Italy was once the core of the...</p>
+                  </div>    
+                  <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>
+                </div>
+              </div>
+              <div class="car-over card position-relative col-3 p-0">
+                <img src="Images/turki.jpeg" class="card-img-top" alt="">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title">Turkey</h5>
+                    <p class="card-text small">The Islamic city...</p>
+                  </div>    
+                  <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>
+                </div>
+              </div>
+              <div class="car-over card position-relative col-3 p-0">
+                <img src="Images/malysia.jpeg" class="card-img-top" alt="">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                  <div>
+                    <h5 class="card-title">Malaysia</h5>
+                    <p class="card-text small">Best Time of Year to visit malaysia.</p>
+                  </div>     
+                  <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>
+                </div>
+              </div>             
+            </div>            
+          </div>          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <i class="me-5 pe-5 fas fa-angle-left change-background fa-2x text-color"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <i class="ms-5 ps-5 fas fa-angle-right change-background fa-2x text-color"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>      
+    </section>
+    <section class="popularDestinationInMonde d-block d-sm-block d-lg-none">
+      <div class=" m-0 w-100  p-5 gardient-bg-color">
+        <h2 class="text-center text-color ">Popular Destination In World</h2>
+      </div>
+      <div class=" d-flex justify-content-around align-items-center flex-wrap ">
+        <div class="car-over card col-12 col-md-6 mt-3 position-relative" style="width: 22rem;">
+          <img src="Images/arabiesaoudite.jpeg" class="card-img-top" alt="arabiesaoudite">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title">Saudit Arabia</h5>
+              <p class="card-text small">The most sacred Islamic city.</p>
+            </div>    
+            <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>
+          </div>
+        </div>
+        <div class="car-over card col-12 col-md-6 mt-3 position-relative" style="width: 22rem;">
+          <img src="Images/paris.jpeg" class="card-img-top" alt="paris">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title">Paris</h5>
+              <p class="card-text small">The capital of France.</p>
+            </div>    
+            <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>
+          </div>
+        </div>
+        <div class="car-over card col-12 col-md-6 mt-3 position-relative" style="width: 22rem;">
+          <img src="Images/newyourk.jpeg" class="card-img-top" alt="newyourk">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title">NewYork</h5>
+              <p class="card-text small">Is the most populous city.</p>
+            </div>     
+            <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>
+          </div>
+        </div>
+        <div class="car-over card col-12 col-md-6 mt-3 position-relative" style="width: 22rem;">
+          <img src="Images/londre.jpeg" class="card-img-top" alt="londre">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title">London</h5>
+              <p class="card-text small">London is the capital city of...</p>
+            </div>    
+            <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>
+          </div>
+        </div>
+        <div class="car-over card col-12 col-md-6 mt-3 position-relative" style="width: 22rem;">
+          <img src="Images/malta.jpeg" class="card-img-top" alt="malta">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title">Malta</h5>
+              <p class="card-text small">The geography of Malta is dominated by...</p>
+            </div>    
+            <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a> 
+          </div>
+        </div>
+        <div class="car-over card col-12 col-md-6 mt-3 position-relative" style="width: 22rem;">
+          <img src="Images/cario.jpeg" class="card-img-top" alt="cario">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title">Cario</h5>
+              <p class="card-text small">Egyptian Arabic pronunciation.</p>
+            </div>     
+            <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>  
+          </div>
+        </div>
+        <div class="car-over card col-12 col-md-6 mt-3 position-relative" style="width: 22rem;">
+          <img src="Images/itali.jpeg" class="card-img-top" alt="itali">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title">Italy</h5>
+              <p class="card-text small">Italy was once the core of the...</p>
+            </div>    
+            <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>
+          </div>
+        </div>
+        <div class="car-over card col-12 col-md-6 mt-3 position-relative" style="width: 22rem;">
+          <img src="Images/turki.jpeg" class="card-img-top" alt="Turkey">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title">Turkey</h5>
+              <p class="card-text small">The Islamic city</p>
+            </div>    
+            <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a> 
+          </div>
+        </div>
+        <div class="car-over card col-12 col-md-6 mt-3 position-relative" style="width: 22rem;">
+          <img src="Images/malysia.jpeg" class="card-img-top" alt="Malysia">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+              <h5 class="card-title">Malaysia</h5>
+              <p class="card-text small">Best Time of Year to visit malaysia.</p>
+            </div>     
+            <a class="btn bg-color text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Copy" href="#">Know More</a>
+          </div>
+        </div>
+      </div>      
+    </section>
+    <!-- Popular Destination In Monde Section Ends Here  -->
+
+    <!-- PorterTwo Section Starts Here  -->
+    <section class="porterTwo container-fluid position-relative h-75">
+      <div class="overley position-absolute w-100 h-100 t-0 s-0"></div>
+    </section>
+    <!-- PorterTwo Section Ends Here  -->
+
+    <!-- Sponsor Section Starts Here  --> 
+    <section class="sponsor">
+      <div class=" m-0 w-100  p-5 gardient-bg-color">
+        <h2 class="text-center text-color ">Thank For</h2>
+      </div>
+      <div class="d-flex justify-content-around align-items-center flex-wrap mb-5">
+        <div class="box  col-lg-3  m-3 h-75 " style="width: 25rem; ">        
+          <div class="card text-bg-dark">
+            <img src="Images/ing3.jpeg" class="card-img" alt="">
+            <div class="overley position-absolute w-100 h-100 t-0 s-0"></div>
+            <div class="card-img-overlay">
+              <h5 class="card-title">All Thanks and appreciation</h5>
+              <i class="fa-regular fa-clock"></i>
+              <span class="card-text"><small>October 15,2023</small></span>
+              <p class="card-title fst-italic position-absolute bottom-0  mb-3 me-5">Mohamed Ali<br/><small>ing.Developeur</small></p>              
+            </div>           
+            <img src="Images/ing3.jpeg" alt="" class=" w-25 h-50 position-absolute bottom-0 end-0 mb-2 me-2  border border-2 rounded-circle">
+          </div>          
+        </div>
+        <div class="box col-lg-3 m-3 style="style="width: 25rem;">
+          <div class="card text-bg-dark">
+            <img src="Images/ing1.jpeg" class="card-img " alt="">
+            <div class="overley position-absolute w-100 h-100 t-0 s-0"></div>
+            <div class="card-img-overlay">
+              <h5 class="card-title">All Thanks and appreciation</h5>
+              <i class="fa-regular fa-clock"></i>
+              <span class="card-text"><small>October 15,2023</small></span>
+              <p class="card-title fst-italic position-absolute bottom-0  mb-3 me-5">Mohamed Ali<br/><small>ing.Developeur</small></p>
+            </div>
+            <img src="Images/ing1.jpeg" alt="" class=" w-25 h-50 position-absolute bottom-0 end-0 mb-2 me-2 border border-2 rounded-circle">
+          </div>         
+        </div>
+        <div class="box col-lg-3 m-3 style="style="width: 25rem;">        
+          <div class="card text-bg-dark w-100 h-100">
+            <img src="Images/ing.jpeg" class="card-img" alt="">
+            <div class="overley position-absolute w-100 h-100 t-0 s-0"></div>
+            <div class="card-img-overlay">
+              <h5 class="card-title">All Thanks and appreciation</h5>
+              <i class="fa-regular fa-clock"></i>
+              <span class="card-text "><small>October 15,2023</small></span>
+              <p class="card-title fst-italic position-absolute bottom-0  mb-3 me-5">Mohamed Ali<br/><small>ing.Developeur</small></p>
+            </div>
+            <img src="Images/ing.jpeg" alt="" class=" w-25 h-50 position-absolute bottom-0 end-0 mb-2 me-2 border border-2 rounded-circle">
+          </div>          
+        </div>
+      </div>
+    </section>
+    <!-- Sponsor Section Ends Here  -->
+
+    <!-- news Section Starts Here  -->          
+    <section class="news">
+      <div class=" m-0 w-100  p-5 gardient-bg-color">
+        <h2 class="text-center text-color fst-italic ">Monde News</h2>
+      </div>
+      <div class="card card_poscard m-5 " style="box-shadow: 0 0 50px 0 #403B7C;">
+        <div class="row d-port">
+          <div class="col-12 col-md-8 ps-3 pb-5">
+            <div class="card-body">
+              <h2 class="card-title text-color fst-italic mb-2">Cario</h2>
+              <i class="fa-solid fa-calendar-days mb-2 me-2"></i><small class="text-muted fst-italic">January 15,2023</small>
+              <div class="ligne bg-warning" style="height: 1px; width: 40px;"></div>
+              <p class="card-text fst-italic lh-lg">An ancient ship has been discovered by archeologists in Egypt. The 2200-year-old wreck of the ancient ship sank after knocking one of the giant blocks from the temple of Amun. The galley was discove...</p>
+              <p class="card-text fst-italic"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a class="btn bg-color text-light fst-italic me-3 mb-3 link-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-pen me-2"></i>Podcast</a>
+              <a class="btn bg-color text-light fst-italic me-3 mb-3 link-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-regular fa-clock me-2"></i>56 min</a>            
+              <a class="btn bg-color text-light fst-italic link-warning me-3 mb-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-play me-2"></i>Play Episode</a>         
+            </div>
+          </div>
+          <div class="col-12 col-md-4">            
+              <img src="Images/cario.jpeg" class=" img_poscard img-fluid rounded-end w-100 h-100" alt="..." style="clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);">            
+          </div>          
+        </div>
+      </div>
+      <div class="card card_poscard m-5" style="box-shadow: 0 0 50px 0 #403B7C;">
+        <div class="row">
+          <div class="col-12 col-md-4">            
+            <img src="Images/arabiesaoudite.jpeg" class=" img_poscard img-fluid rounded-end w-100 h-100" alt="..." style="clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);">            
+          </div> 
+          <div class="col-12 col-md-8 ps-3 pb-5">
+            <div class="card-body">
+              <h2 class="card-title text-color fst-italic mb-2">Saudit Arabia</h2>
+              <i class="fa-solid fa-calendar-days mb-2 me-2"></i><small class="text-muted">January 15,2023</small>
+              <div class="ligne bg-warning" style="height: 1px; width: 40px;"></div>
+              <p class="card-text fst-italic lh-lg">Saudi civil aviation delegation visits Chinese aircraft manufacturing company, economic zone
+                The visit came within the framework of enhancing cooperation and exchanging expertise in the field of the aviation and space industry
+                The representatives toured COMAC’s factories and facilities and were briefed on the stages of aircraft manufacturing</p>
+              <p class="card-text fst-italic"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a class="btn bg-color text-light fst-italic me-3 mb-3 link-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-pen me-2"></i>Podcast</a>
+              <a class="btn bg-color text-light fst-italic me-3 mb-3 link-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-regular fa-clock me-2"></i>56 min</a>            
+              <a class="btn bg-color text-light fst-italic link-warning me-3 mb-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-play me-2"></i>Play Episode</a>         
+            </div>
+          </div>                   
+        </div>
+      </div>
+      <div class="card card_poscard m-5" style="box-shadow: 0 0 50px 0 #403B7C;">
+        <div class="row d-port">
+          <div class="col-12 col-md-8 ps-3 pb-5">
+            <div class="card-body">
+              <h2 class="card-title text-color fst-italic mb-2">Algeria</h2>
+              <i class="fa-solid fa-calendar-days mb-2 me-2"></i><small class="text-muted fst-italic">January 15,2023</small>
+              <div class="ligne bg-warning" style="height: 1px; width: 40px;"></div>
+              <p class="card-text fst-italic lh-lg">ALGIERS- Jamaa al-Jazair, inaugurated Sunday by the president of the Republic, Abdelmadjid Tebboune, is intended to be a centre for the path of the middle way testifying Algeria's leading civilizational role..</p>
+              <p class="card-text fst-italic"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a class="btn bg-color text-light fst-italic me-3 mb-3 link-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-pen me-2"></i>Podcast</a>
+              <a class="btn bg-color text-light fst-italic me-3 mb-3 link-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-regular fa-clock me-2"></i>56 min</a>            
+              <a class="btn bg-color text-light fst-italic link-warning me-3 mb-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-play me-2"></i>Play Episode</a>         
+            </div>
+          </div>
+          <div class="col-12 col-md-4">            
+              <img src="Images/mosque.jpeg" class=" img_poscard img-fluid rounded-end w-100 h-100" alt="..." style="clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);">            
+          </div>          
+        </div>
+      </div>
+      <div class="card card_poscard m-5" style="box-shadow: 0 0 50px 0 #403B7C;">
+        <div class="row">
+          <div class="col-12 col-md-4">            
+            <img src="Images/rourifel.jpeg" class=" img_poscard img-fluid rounded-end w-100 h-100" alt="..." style="clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);">            
+          </div> 
+          <div class="col-12 col-md-8 ps-3 pb-5">
+            <div class="card-body">
+              <h2 class="card-title text-color fst-italic mb-2">French</h2>
+              <i class="fa-solid fa-calendar-days mb-2 me-2"></i><small class="text-muted">January 15,2023</small>
+              <div class="ligne bg-warning" style="height: 1px; width: 40px;"></div>
+              <p class="card-text fst-italic lh-lg">The Eiffel Tower in Paris was expected to reopen to visitors on Sunday after six days of closure due to strikes.
+                Workers first walked out on Monday in a dispute over the way the tower was managed.
+                Its operator, Société d'Exploitation de la Tour Eiffel (SETE), said a deal was reached with unions on Saturday.                
+                It is the second such strike at the iconic landmark in the last three months, as Paris looks ahead to hosting the 2024 Olympic Games this summer.</p>
+              <p class="card-text fst-italic"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a class="btn bg-color text-light fst-italic me-3 mb-3 link-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-pen me-2"></i>Podcast</a>
+              <a class="btn bg-color text-light fst-italic me-3 mb-3 link-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-regular fa-clock me-2"></i>56 min</a>            
+              <a class="btn bg-color text-light fst-italic link-warning me-3 mb-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-play me-2"></i>Play Episode</a>         
+            </div>
+          </div>         
+        </div>
+      </div>
+      <div class="card card_poscard m-5" style="box-shadow: 0 0 50px 0 #403B7C;">
+        <div class="row d-port">
+          <div class="col-12 col-md-8 ps-3 pb-5">
+            <div class="card-body">
+              <h2 class="card-title text-color fst-italic mb-2">NewYork</h2>
+              <i class="fa-solid fa-calendar-days mb-2 me-2"></i><small class="text-muted fst-italic">January 15,2023</small>
+              <div class="ligne bg-warning" style="height: 1px; width: 40px;"></div>
+              <p class="card-text fst-italic lh-lg">NEW YORK CITY - President Joe Biden is expected to be in New York City on Monday.
+                The New York Post reports that Biden will be in Manhattan to tape an interview with late-night talk show host Seth Meyers and attend a fundraiser.</p>
+              <p class="card-text fst-italic"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a class="btn bg-color text-light fst-italic me-3 mb-3 link-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-pen me-2"></i>Podcast</a>
+              <a class="btn bg-color text-light fst-italic me-3 mb-3 link-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-regular fa-clock me-2"></i>56 min</a>            
+              <a class="btn bg-color text-light fst-italic link-warning me-3 mb-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" href="#"><i class="fa-solid fa-play me-2"></i>Play Episode</a>         
+            </div>
+          </div>
+          <div class="col-12 col-md-4">            
+              <img src="Images/newyourk.jpeg" class=" img_poscard img-fluid rounded-end w-100 h-100" alt="..." style="clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);">            
+          </div>          
+        </div>
+      </div>     
+    </section>
+    <!-- News Section Ends Here  -->
+    
+    <!-- Social Media Section Starts Here  -->
+    <section class="social-media my-5 w-100 h-">
+      <div class=" m-0 w-100  p-5 gardient-bg-color">
+        <h2 class="text-center text-color fst-italic ">Join Us</h2>
+      </div>
+      <div class="content_social_media row d-md-flex border border-2  rounded m-0" style="box-shadow: 0 0 50px 0 #403B7C;">
+        <div class="facebock icon-social w-25 d-flex flex-colum align-items-center justify-content-around position-relative border-end border-2">
+          <i class="fa-brands fa-facebook-f text-color  d-flex justify-content-center align-items-center rounded-circle w-25 h-50 border border-0"></i>
+          <p class="position-absolute bottom-0 text-light fs-6 fst-italic">Facebook</p>
+          <div class="ligne_social position-absolute bottom-0 bg-color" style="width: 50px; height: 2px;"></div>
+        </div>
+        <div class="instagram icon-social w-25 d-flex flex-colum align-items-center justify-content-around position-relative border-end border-2">
+          <i class="fa-brands fa-instagram text-color  d-flex justify-content-center align-items-center rounded-circle w-25 h-50 border border-0 "></i>
+          <p class="position-absolute bottom-0 text-light fs-6 fst-italic">Instagram</p>
+          <div class="ligne_social position-absolute bottom-0 bg-color" style="width: 50px; height: 2px;"></div>
+        </div>
+        <div class="twiter icon-social w-25 d-flex flex-colum align-items-center justify-content-center position-relative border-end border-2">
+          <i class="fa-brands fa-x-twitter text-color  d-flex justify-content-center align-items-center rounded-circle w-25 h-50 border border-0"></i>
+          <p class="position-absolute bottom-0 text-light fs-6 fst-italic">Twiter</p>
+          <div class="ligne_social position-absolute bottom-0 bg-color" style="width: 50px; height: 2px;"></div>
+        </div>
+        <div class="tiktok icon-social  w-25 d-flex flex-colum align-items-center justify-content-center position-relative">
+          <i class="fa-brands fa-tiktok text-color d-flex justify-content-center align-items-center mt-5 mb-5  rounded-circle w-25 h-50 border border-0 "></i>
+          <p class="position-absolute bottom-0 text-light fs-6 fst-italic">Tiktok</p>
+          <div class="ligne_social position-absolute bottom-0 bg-color" style="width: 50px; height: 2px;"></div>
+        </div>       
+      </div>
+    </section>
+    <!-- Social Media Section Ends Here  -->
+
+    <!-- Footer Section Starts Here  -->
+
+    <footer class="container-fluid bg-color rounded">
+      <div class="content_footer  row d-flex justify-content-around align-items-center flex-wrap ">
+        <div class="box_footer col-12 col-md-3 border-bottom ">
+          <div class="title_footer d-flex justify-content-center align-items-center  border-bottom mx-4">
+            <a class="m-4 rounded-circle" style="box-shadow: 0 0 50px 0 white;" href="#">
+              <img class="img-fluid rounded-circle" src="Images/travel-logo.jpg"alt="logo" style="width: 50px;height: 50px;">
+            </a>
+            <h3 class="text-center fst-italic fw-normal" style="color: #8881CB;">Good Company</h3>
+          </div>        
+          <div class="body_footer">
+            <p class="text-light text-center fst-italic bg-hoverfooter my-2">Tel : 000-000-000</p>
+            <p class="text-light text-center fst-italic bg-hoverfooter">Adress : Algeria</p>
+            <p class="text-light text-center fst-italic bg-hoverfooter">Fax : 000-000-000</p>
+          </div>
+        </div>
+        <div class="box_footer col-12 col-md-3 border-bottom ">
+          <div class="title_footer d-flex justify-content-center align-items-center  border-bottom mx-4">
+            <a class="m-4 rounded-circle" style="box-shadow: 0 0 50px 0 white;" href="#">
+              <img class="img-fluid rounded-circle" src="Images/travel-logo.jpg"alt="logo" style="width: 50px;height: 50px;">
+            </a>
+            <h3 class="text-center fst-italic fw-normal" style="color: #8881CB;">Good Company</h3>
+          </div>        
+          <div class="body_footer">
+            <a class="text-light fst-italic bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">Visit Us</a>
+            <a class="text-light fst-italic bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">Take Alook</a>
+            <a class="text-light fst-italic bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">Your Health is More Important</a>
+          </div>
+        </div>
+        <div class="box_footer col-12 col-md-3 border-bottom ">
+          <div class="title_footer d-flex justify-content-center align-items-center  border-bottom mx-4">
+            <a class="m-4 rounded-circle" style="box-shadow: 0 0 50px 0 white;" href="#">
+              <img class="img-fluid rounded-circle" src="Images/travel-logo.jpg"alt="logo" style="width: 50px;height: 50px;">
+            </a>
+            <h3 class="text-center fst-italic fw-normal" style="color: #8881CB;">Good Company</h3>
+          </div>        
+          <div class="body_footer">
+            <a class="text-light fst-italic bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">Services All</a>
+            <a class="text-light fst-italic bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">Provide Best Services</a>
+            <a class="text-light fst-italic bg-hoverfooter my-2 text-decoration-none d-flex justify-content-center align-items-center" href="#">You Will Be Better Than Before</a>
+          </div>
+        </div>
+      </div>   
+    <div class="copyright  m-0 w-100  p-3 gardient-bg-color">
+      <p class="copyright text-center text-color fst-italic p-2" >&copy; 2024 <span>Algeria</span> All Right Reserved.</p>
+    </div>
+  </footer>
+    <!-- Footer Section Ends Here  -->
+
+   <!-- Latest compiled JavaScript -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+   <script>
+    // Initialize tooltips
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script>    
+</body>
+</html>
+
